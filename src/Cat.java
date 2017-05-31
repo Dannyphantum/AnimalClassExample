@@ -5,16 +5,17 @@ public class Cat extends Animal {
 
 public Cat()
 {
-super();
-System.out.println("Now I am a Cat!");
+animalType = "Cat";
+animalAction = "purr.";
+//System.out.println("Now I am a Cat!");
 }
 
-@Override
+//@Override
 public String sleep() {
 	return "A cat sleeps...";
 }
 
-@Override
+//@Override
 public String eat() {
 	return "A cat eats...";
 }

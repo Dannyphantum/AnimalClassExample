@@ -4,21 +4,22 @@
 public class Bird extends Animal {
 public Bird()
 {
-//super();
-System.out.println("A bird is hatched...");
+animalType = "bird";
+animalAction = " fly.";
+//System.out.println("A bird is hatched...");
 }
 
 
-@Override
+//@Override
 public String sleep() {
 return "A bird sleeps soundly...";
 }
 
-@Override
+/*@Override
 public String eat() {
 return "A bird eats...";
 }
-
+*/
 
 public String fly()
 {
@@ -26,6 +27,7 @@ public String fly()
 //is unique to the Bird class
 return "A bird flies...";
 }
+
 }
 
  
