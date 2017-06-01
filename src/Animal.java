@@ -8,8 +8,14 @@ public class Animal {
 	
 	public String animalAction;
 	
+	public String commonName;
+	
 	public String breathes() {
 		return "An animal breathes";
+	}
+	
+	public String animalBreathing() {
+		return "A " + commonName + " breathes";
 	}
 	
 	public String sleep() {
@@ -26,5 +32,6 @@ public class Animal {
 	public String whatIdo(){
 		return "I like to " + animalAction;
 	}
+	
 }
 
